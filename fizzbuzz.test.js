@@ -36,3 +36,22 @@ test('Fizzbuzz return BUZZ if num is multiple of 5', () => {
   //Assert
   expect(result).toEqual('Buzz');
 });
+
+test('Fizzbuzz returns FizzBuzz if num is multiple of 3 and 5', () => {
+  //Arrange
+  let num = 15;
+  //Act
+  let result = fizzbuzz(num);
+  //Assert
+  expect(result).toEqual('FizzBuzz');
+});
+
+test('Fizzbuzz returns FizzBuzz if num is multiple of 3 and 5', () => {
+  //Arrange
+  let num = 30;
+  //Act
+  let result = fizzbuzz(num);
+  //Assert
+  expect(result).toEqual('FizzBuzz');
+});
+
