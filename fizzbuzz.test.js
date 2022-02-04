@@ -12,9 +12,18 @@ test('fizzbuzz returns 1', () => {
 
 test('fizzbuzz returns 2', () => {
   //Arrange
-  let num = 1;
+  let num = 2;
   //Act
   let result = fizzbuzz(num);
   //Assert
-  expect(result).toBe(1);
+  expect(result).toBe(2);
+});
+
+test('Fizzbuzz returns FIZZ for multiples of 3', () => {
+  //Arrange
+  let num = 3;
+  //Act
+  let result = fizzbuzz(num);
+  //Assert
+  expect(result).toEqual('Fizz');
 });
