@@ -19,7 +19,7 @@ test('fizzbuzz returns 2', () => {
   expect(result).toBe(2);
 });
 
-test('Fizzbuzz returns FIZZ for multiples of 3', () => {
+test('Fizzbuzz returns FIZZ if num is 3', () => {
   //Arrange
   let num = 3;
   //Act
