@@ -27,3 +27,12 @@ test('Fizzbuzz returns FIZZ if num is 3', () => {
   //Assert
   expect(result).toEqual('Fizz');
 });
+
+test('Fizzbuzz return BUZZ if num is multiple of 5', () => {
+  //Arrange
+  let num = 5;
+  //Act
+  let result = fizzbuzz(num);
+  //Assert
+  expect(result).toEqual('Buzz');
+});
